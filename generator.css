@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,250;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: lightpink ;   
+    position: relative;
+    width: 100vw;
+    height:100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: .2px .5px  5px;
+    width:250px;    
+    height: 250px;   
+    gap: 10px;
+    position: relative;
+    
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px; 
+}
+
+.form-group{
+    position: relative;   
+    margin: 10px;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:-50px;
+    gap:4rem;
+    padding: 0px 30px;
+
+}
+
+.form-group span{
+    background-color: antiquewhite;
+}
+
+.range{   
+    width:240px;
+}
+     
+
+textarea{
+    width: 250px;
+    height: 100px;
+}
+.form-group label{
+    top: -4px;
+    left: 5px;
+    position: absolute;
+}
+
+.text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    bottom: -70px;
+    gap: 5px;
+}
+
+.button{   
+  
+    width:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+button{
+    border-radius: 50px;
+    width: 100px;
+}
+
+.container-2{
+    box-shadow: .2px .5px  5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: wheat;
+}
